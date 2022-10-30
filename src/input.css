@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600;700&display=swap');
 
 .btn {
-    @apply shadow-md py-3 px-6 rounded-md transition duration-300
+    @apply shadow-md py-3 px-6 rounded-md hover:shadow-lg hover:scale-95
 }
 .btn-purple {
     @apply bg-bookmark-purple text-white
