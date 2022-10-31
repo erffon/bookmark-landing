@@ -587,6 +587,10 @@ video {
   right: 0px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -627,10 +631,6 @@ video {
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -681,10 +681,6 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -705,10 +701,6 @@ video {
   gap: 1.5rem;
 }
 
-.gap-11 {
-  gap: 2.75rem;
-}
-
 .gap-x-24 {
   -moz-column-gap: 6rem;
        column-gap: 6rem;
@@ -725,6 +717,11 @@ video {
 .rounded-l-full {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
+}
+
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
 }
 
 .bg-bookmark-red {
@@ -772,12 +769,13 @@ video {
   padding-right: 0.5rem;
 }
 
-.text-center {
-  text-align: center;
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.text-center {
+  text-align: center;
 }
 
 .font-Comfortaa {
@@ -810,10 +808,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .uppercase {
@@ -936,56 +930,16 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:-right-16 {
-    right: -4rem;
-  }
-
-  .lg\:-right-28 {
-    right: -7rem;
-  }
-
-  .lg\:-right-32 {
-    right: -8rem;
-  }
-
   .lg\:-right-40 {
     right: -10rem;
-  }
-
-  .lg\:-top-11 {
-    top: -2.75rem;
-  }
-
-  .lg\:-top-2 {
-    top: -0.5rem;
   }
 
   .lg\:top-20 {
     top: 5rem;
   }
 
-  .lg\:left-6 {
-    left: 1.5rem;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .lg\:mt-60 {
-    margin-top: 15rem;
-  }
-
-  .lg\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
-  .lg\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
-  .lg\:ml-3 {
-    margin-left: 0.75rem;
   }
 
   .lg\:mt-40 {
@@ -994,6 +948,10 @@ video {
 
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:w-6\/12 {
+    width: 50%;
   }
 
   .lg\:w-5\/12 {
@@ -1012,17 +970,8 @@ video {
     align-items: flex-start;
   }
 
-  .lg\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .lg\:pl-9 {
-    padding-left: 2.25rem;
-  }
-
-  .lg\:pl-14 {
-    padding-left: 3.5rem;
+  .lg\:pl-8 {
+    padding-left: 2rem;
   }
 
   .lg\:text-left {
