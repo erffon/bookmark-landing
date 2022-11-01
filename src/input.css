@@ -13,3 +13,6 @@
 .btn-white {
     @apply bg-bookmark-white
 }
+.showit {
+    @apply block
+}
