@@ -76,17 +76,23 @@
 
     <!-- Downloads -->
     <section class="container">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 pt-20">
+            <h1 class="text-3xl text-center text-bookmark-blue font-semibold">Download it</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo exercitationem corrupti error asperiores nam eius.</p>
+        </div>
+        <!-- Buttons -->
         <div class="flex flex-row my-24 justify-between">
             <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
-                <img class="w-24" src="./images/logo-chrome.svg" alt="chrome logo"/>
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-chrome.svg" alt="chrome logo"/>
                 <button class="btn btn-purple text-sm">Download for Chrome</button>
             </div>
             <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
-                <img class="w-24" src="./images/logo-firefox.svg" alt="chrome logo"/>
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-firefox.svg" alt="chrome logo"/>
                 <button class="btn btn-purple text-sm">Download for Firefox</button>
             </div>
             <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
-                <img class="w-24" src="./images/logo-opera.svg" alt="chrome logo"/>
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-opera.svg" alt="chrome logo"/>
                 <button class="btn btn-purple text-sm">Download for Opera</button>
             </div>
         </div>
@@ -127,7 +133,7 @@
         </div>
     </section>
 
-    
+    <!-- FAQ functionality -->
     <script>
         const faq = document.querySelectorAll('#faq');
         faq.forEach((item,number)=>{
