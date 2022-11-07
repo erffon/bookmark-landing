@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body class="font-Comfortaa dark:bg-gray-900">
+    <!-- Header -->
+    <head class="">
+        <nav class="container dark:bg-black rounded-md">
+            <div class="flex items-center py-4 mt-4 sm:mt-12">
+                <img src="./images/logo-bookmark.svg" alt="logo">
+                <ul class="hidden sm:flex flex-1 text-sm uppercase gap-8 text-bookmark-blue dark:text-bookmark-white items-center justify-end">
+                    <li class="cursor-pointer hover:text-bookmark-purple">features</li>
+                    <li class="cursor-pointer hover:text-bookmark-purple">pricing</li>
+                    <li class="cursor-pointer hover:text-bookmark-purple">about</li>
+                    <button type="button" class="bg-bookmark-red text-white py-2 px-5 hover:scale-105 duration-300 rounded-md">log in</button>
+                </ul>
+                <div class="sm:hidden flex justify-end flex-1 ">
+                    <i class="text-xl fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </head>
+
+    <!-- Hero -->
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row mt-14 md:mt-28">
+            <!-- Content -->
+            <div class="flex flex-col gap-5 flex-1 items-center lg:items-start">
+                <h2 class="text-bookmark-blue dark:text-white text-3xl md:text-4 mb-6 text-center lg:text-left lg:text-5xl font-extrabold capitalize">A simple bookmark manager</h2>
+                <p class="text-bookmark-grey mb-6 text-lg text-center lg:text-left px-10 md:px-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quae vitae animi ad fuga adipisci sint vel, sed nostrum cupiditate accusantium eaque magni recusandae voluptatum assumenda ab dolore velit dolor ab dolore velit dolor.</p>
+                <div class="flex flex-wrap gap-6 justify-center">
+                    <button type="button" class="btn btn-purple">Get it on Chrome</button>
+                    <button type="button" class="btn btn-white">Get it on Firefox</button>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="flex justify-center flex-1 z-10 mb-10 lg:mb-0 md:mb-16 lg:pl-8">
+                <img src="./images/hero-bg.png" alt="hero image" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+            </div>
+            <!-- Rounded Background -->
+            <div class="hidden md:block absolute top-28 right-0 bg-bookmark-purple rounded-l-full w-2/4 h-80 z-0 mb-28 overflow-hidden  lg:top-25 lg:w-6/12"></div>
+        </div>
+    </section>
+    
+    <!-- Features -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-40 dark:bg-gray-800">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue font-semibold dark:text-bookmark-white">Features</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo exercitationem corrupti error asperiores nam eius.</p>
+        </div>
+        <!-- Feature #1 -->
+        <div class="relative mt-20 lg:mt-24 lg:mb-24">
+            <div class="flex container flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img src="./images/illustration-features-tab-1.png" alt="feature one" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue dark:text-bookmark-white">Bookmark in one click</h1>
+                    <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aliquid, veniam vel dolore quisquam molestiae perferendis unde iusto impedit eum odit, expedita ducimus soluta illo reprehenderit quis officia itaque ab!</p>
+                    <button type="button" class="btn btn-purple">Get it on Chrome</button>
+                </div>
+                <!-- Rounded Background -->
+            <div class="hidden md:block absolute top-28 left-0 bg-bookmark-purple rounded-r-full w-2/4 h-80 z-0 mb-28 overflow-hidden lg:-right-40 lg:top-20"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads -->
+    <section class="container">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-6/12 mx-auto px-2 pt-20">
+            <h1 class="text-3xl text-center text-bookmark-blue font-semibold dark:text-bookmark-white">Download it</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo exercitationem corrupti error asperiores nam eius.</p>
+        </div>
+        <!-- Buttons -->
+        <div class="flex flex-row my-24 justify-between">
+            <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-chrome.svg" alt="chrome logo"/>
+                <button class="btn btn-purple text-sm">Download for Chrome</button>
+            </div>
+            <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-firefox.svg" alt="chrome logo"/>
+                <button class="btn btn-purple text-sm">Download for Firefox</button>
+            </div>
+            <div class="flex flex-col items-center gap-10 p-7 rounded-md border hover:shadow-xl border-bookmark-grey hover:border-bookmark-purple">
+                <img class="w-24 h-auto hover:scale-95 transition duration-300" src="./images/logo-opera.svg" alt="chrome logo"/>
+                <button class="btn btn-purple text-sm">Download for Opera</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="pt-24 pb-36 bg-bookmark-white dark:bg-gray-800">
+        <div class="container">
+            <!-- Heading -->
+            <div class="sm:w-3/4 lg:w-6/12 mx-auto px-1">
+                <h1 class="text-3xl text-center text-bookmark-blue font-semibold dark:text-bookmark-white">FAQ</h1>
+                <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo exercitationem corrupti error asperiores nam eius.</p>
+            </div>
+            <!-- Questions -->
+            <div class="container">
+                <div class="flex flex-col gap-3 mt-20" id="faq">
+                    <div class="flex flex-row justify-center gap-5 items-center cursor-pointer hover:text-bookmark-purple">
+                        <i class="fa-solid fa-angle-right text-lg"></i>
+                        <h3 class="text-bookmark-blue text-lg hover:text-bookmark-purple dark:text-bookmark-white">What is a bookmark?</h3>
+                    </div>
+                    <p class="text-bookmark-grey hidden" id="answer0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere incidunt eveniet optio nemo aliquid veniam eaque, quia nobis? Ad placeat ratione consequuntur illo obcaecati esse voluptate incidunt corrupti asperiores architecto.</p>
+                </div>
+                <div class="flex flex-col gap-3" id="faq">
+                    <div class="mt-5 flex flex-row justify-center gap-5  items-center cursor-pointer hover:text-bookmark-purple ">
+                        <i class="fa-solid fa-angle-right text-lg"></i>
+                        <h3 class="text-bookmark-blue text-lg hover:text-bookmark-purple dark:text-bookmark-white">How much is it?</h3>
+                    </div>
+                    <p class="text-bookmark-grey hidden" id="answer1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere incidunt eveniet optio nemo aliquid veniam eaque, quia nobis? Ad placeat ratione consequuntur illo obcaecati esse voluptate incidunt corrupti asperiores architecto.</p>
+                </div>
+                <div class="flex flex-col gap-3" id="faq">
+                    <div class="mt-5 flex flex-row justify-center gap-5  items-center cursor-pointer hover:text-bookmark-purple">
+                        <i class="fa-solid fa-angle-right text-lg"></i>
+                        <h3 class="text-bookmark-blue text-lg hover:text-bookmark-purple dark:text-bookmark-white">How does it work?</h3>
+                    </div>
+                    <p class="text-bookmark-grey hidden" id="answer2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere incidunt eveniet optio nemo aliquid veniam eaque, quia nobis? Ad placeat ratione consequuntur illo obcaecati esse voluptate incidunt corrupti asperiores architecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ functionality -->
+    <script>
+        const faq = document.querySelectorAll('#faq');
+        faq.forEach((item,number)=>{
+            item.addEventListener('click',e=>{ 
+                const answer = document.querySelector('#answer'+number);
+                answer.classList.toggle('showit');
+            })
+        })
+    </script>
+</body>
+</html>
