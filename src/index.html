@@ -137,7 +137,7 @@
     <script>
         const faq = document.querySelectorAll('#faq');
         faq.forEach((item,number)=>{
-            item.addEventListener('click',e=>{
+            item.addEventListener('click',e=>{ 
                 const answer = document.querySelector('#answer'+number);
                 answer.classList.toggle('showit');
             })
