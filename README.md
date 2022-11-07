@@ -1,4 +1,10 @@
-# simple landing page using Tailwind CSS
-this landing page is designed for a fake bookmark software
-## what is purpose of this project?
-I wanted to get deeper in tailwind and use it in a simple project.
+# README templates
+
+# 🔖 Bookmark extension Landing Page
+
+This project is a **Tailwind CSS** practice that helped me learn **\*\*\***Flexbox**\*\*\*** and **\*\*\*\***Tailwind**\*\*\*\*** better.
+
+Implementing **\*\*\*\***\*\***\*\*\*\***Dark Mode**\*\*\*\***\*\***\*\*\*\*** and **\*\*\*\***\*\*\*\***\*\*\*\***Responsive**\*\*\*\***\*\*\*\***\*\*\*\*** designing was also considered in this project. Check the LIVE DEMO and enjoy ❤️
+[Live Demo](https://erffon.github.io/bookmark-landing/)
+
+💌 It would be nice if you check it out and send me your comment via email to [erffon@gmail.com](mailto:erffon@gmail.com)
